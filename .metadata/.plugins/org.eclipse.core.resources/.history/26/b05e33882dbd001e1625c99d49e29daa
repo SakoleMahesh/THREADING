@@ -1,0 +1,16 @@
+package thread;
+
+public class YeildEx implements Runnable 
+{
+	public void run ()
+	{
+		System.out.println("Say Hi");
+	}
+	public static void main(String[] args) 
+	{
+		YeildEx e=new YeildEx();
+		Thread df=new Thread(e);
+		df.start();
+	}
+
+}

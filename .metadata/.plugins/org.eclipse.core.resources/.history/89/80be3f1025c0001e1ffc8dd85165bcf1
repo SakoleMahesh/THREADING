@@ -1,0 +1,12 @@
+package practice;
+
+
+class Threade extends Thread
+{
+	
+		public void run() 
+		{
+		System.out.println();	
+		System.out.println();	
+		}
+}

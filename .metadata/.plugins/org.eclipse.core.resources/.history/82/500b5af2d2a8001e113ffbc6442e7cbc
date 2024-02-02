@@ -1,0 +1,22 @@
+package arithmatic_logics;
+
+public class Demoo  {
+		
+	private  Demoo()
+	{
+		super();
+		System.out.println("Demo");
+	}
+	public static void main(String[] args) 
+	{
+//		Demoo obj=new Demoo(5) ;
+		Demoo ob=new Demoo() ;
+		
+		
+		Interface.Run();
+				
+	}
+
+
+	
+}

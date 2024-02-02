@@ -1,0 +1,19 @@
+package practice;
+
+
+class Threade 
+{
+	
+		public void run() 
+		{
+		System.out.println();	
+		System.out.println();	
+		}
+}
+public class Threads extends Thread 
+{
+	Threade t1 = new Threade() ;
+	Threade t2 = new Threade() ;
+	Threade t3 = new Threade() ;
+	t1.start();
+}

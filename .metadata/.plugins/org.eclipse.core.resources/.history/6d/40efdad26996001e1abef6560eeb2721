@@ -1,0 +1,27 @@
+package exceptionhandling;
+
+import java.io.IOException;
+import java.sql.SQLClientInfoException;
+
+public class Exceptionhandling extends Exception
+{
+	public static void main(String args[])throws IOException
+
+	{
+		int a=10,b=0,c;
+		try
+		{
+			c=a/b;
+		}
+		catch(ArithmeticException e)
+		{
+			System.out.println("Hello");
+			throw new IOException();
+		}
+		public void add()throws Exception
+		{
+			throw new IOException();
+		}
+		
+	}
+}

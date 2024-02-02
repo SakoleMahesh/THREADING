@@ -1,0 +1,16 @@
+package thread;
+
+public class YeildEx 
+{
+	public void run ()
+	{
+		System.out.println("Say Hi");
+	}
+	public static void main(String[] args) 
+	{
+		
+		Thread df=new Thread();
+		df.start;
+	}
+
+}

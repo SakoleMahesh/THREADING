@@ -1,0 +1,37 @@
+package practice;
+import java.util.IdentityHashMap;
+import java.util.Map;
+
+public class IdentityHashMapExample 
+{
+	static
+	{
+		System.out.println("Hi");
+	}
+	{
+		System.out.println("Hiiiiii");
+		
+	}
+    public static void main(String[] args) {
+        // Creating an IdentityHashMap
+        identityHashMap<String, String> identityHashMap = new IdentityHashMap<>();
+
+        // Adding key-value pairs
+        identityHashMap.put("one", "first");
+        identityHashMap.put(new String("one"), "second"); // different object, will be treated as a separate key
+        identityHashMap.put("two", "third");
+
+        // Displaying the contents of the IdentityHashMap
+        System.out.println("IdentityHashMap: " + identityHashMap);
+
+        // Retrieving values using keys
+        String value1 = identityHashMap.get("one");
+
+        String value2 = identityHashMap.get("two");
+        String value3 = identityHashMap.get("second");
+        // Displaying retrieved values
+        System.out.println("Value for key 'one': " + value1);
+        System.out.println("Value for key (new String('one')): " + value2);
+        System.out.println("Value for key (new String('one')): " + value3);
+    }
+}

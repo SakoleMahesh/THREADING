@@ -1,0 +1,8 @@
+package practice;
+
+public class Threadss {
+	Threade t1 = new Threade() ;
+	Threade t2 = new Threade() ;
+	Threade t3 = new Threade() ;
+	 t1.run();
+}

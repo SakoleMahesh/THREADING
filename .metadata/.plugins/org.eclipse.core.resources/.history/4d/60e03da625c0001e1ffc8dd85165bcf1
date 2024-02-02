@@ -1,0 +1,13 @@
+package practice;
+
+
+class Threade extends Thread
+{
+	
+		public synchronized void run() 
+		{
+		System.out.println(Thread.currentThread().getName());	
+		System.out.println(Thread.currentThread().getPriority());	
+		System.out.println("Execution completed");	
+		}
+}

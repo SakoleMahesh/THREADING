@@ -1,0 +1,24 @@
+package practice;import 
+public class ArrayListMultimap {
+    public static void main(String[] args) {
+        // Creating a Multimap with String keys and Integer values
+        ArrayListMultimap<String, Integer> multimap = ArrayListMultimap.create();
+
+        // Adding multiple values for the same key
+        multimap.put("one", 1);
+        multimap.put("one", 10);
+        multimap.put("two", 2);
+
+        // Retrieving values for a key
+        System.out.println("Values for key 'one': " + multimap.get("one"));
+        System.out.println("Values for key 'two': " + multimap.get("two"));
+
+        // Iterating over entries
+        System.out.println("All entries:");
+        for (String key : multimap.keySet()) {
+            for (Integer value : multimap.get(key)) {
+                System.out.println(key + " : " + value);
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+package practice;
+
+public class FirstThread extends Thread 
+{
+	
+	public void run()
+	{
+		
+	}
+	
+	
+	
+	public static void main(String[] args)
+	{
+		FirstThread f1= new FirstThread();
+		FirstThread f2= new FirstThread();
+		FirstThread f3= new FirstThread();
+		FirstThread f4= new FirstThread();
+		FirstThread f5= new FirstThread();
+	}
+
+}

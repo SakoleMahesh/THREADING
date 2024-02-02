@@ -1,0 +1,10 @@
+package thread;
+
+public class YeildEx 
+{
+	public static void main(String[] args) {
+		Thread df=new Thread();
+		df.run;
+	}
+
+}

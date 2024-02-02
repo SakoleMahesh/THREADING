@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=Array/C:\/Program Files\/Java\/jdk-21\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.util(HashMap.class[HashMap" modifiers="33" timestamp="1701977569966"/>
+    <typeInfo handle="=Array/C:\/Program Files\/Java\/jdk-21\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.util(TreeMap$DescendingSubMap$DescendingEntrySetView.class[DescendingEntrySetView" modifiers="16" timestamp="1701977569966"/>
+    <typeInfo handle="=Array/C:\/Program Files\/Java\/jdk-21\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.util.concurrent(ConcurrentMap.class[ConcurrentMap" modifiers="1537" timestamp="1701977569966"/>
+    <typeInfo handle="=Array/C:\/Program Files\/Java\/jdk-21\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.util.concurrent(ConcurrentNavigableMap.class[ConcurrentNavigableMap" modifiers="1537" timestamp="1701977569966"/>
+    <typeInfo handle="=Array/C:\/Program Files\/Java\/jdk-21\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.util(LinkedHashMap.class[LinkedHashMap" modifiers="33" timestamp="1701977569966"/>
+    <typeInfo handle="=Array/C:\/Program Files\/Java\/jdk-21\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.util(SortedMap.class[SortedMap" modifiers="1537" timestamp="1701977569966"/>
+    <typeInfo handle="=Array/C:\/Program Files\/Java\/jdk-21\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.util(NavigableMap.class[NavigableMap" modifiers="1537" timestamp="1701977569966"/>
+    <typeInfo handle="=Array/C:\/Program Files\/Java\/jdk-21\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.util(TreeMap.class[TreeMap" modifiers="33" timestamp="1701977569966"/>
+    <typeInfo handle="=Array/C:\/Program Files\/Java\/jdk-21\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.lang.runtime(SwitchBootstraps$EnumMap.class[EnumMap" modifiers="26" timestamp="1701977569966"/>
+    <typeInfo handle="=Array/C:\/Program Files\/Java\/jdk-21\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.lang(Comparable.class[Comparable" modifiers="1537" timestamp="1701977569966"/>
+    <typeInfo handle="=Array/C:\/Program Files\/Java\/jdk-21\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.util(Map.class[Map" modifiers="1537" timestamp="1701977569966"/>
+    <typeInfo handle="=Array/C:\/Program Files\/Java\/jdk-21\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.util(Properties.class[Properties" modifiers="33" timestamp="1701977569966"/>
+    <typeInfo handle="=Array/C:\/Program Files\/Java\/jdk-21\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.lang(Runnable.class[Runnable" modifiers="1537" timestamp="1701977569966"/>
+    <typeInfo handle="=Array/C:\/Program Files\/Java\/jdk-21\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.lang(Thread.class[Thread" modifiers="33" timestamp="1701977569966"/>
+    <typeInfo handle="=Array/C:\/Program Files\/Java\/jdk-21\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.lang(Enum.class[Enum" modifiers="1057" timestamp="1701977569966"/>
+    <typeInfo handle="=Array/C:\/Program Files\/Java\/jdk-21\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.lang(Thread$State.class[State" modifiers="16409" timestamp="1701977569966"/>
+    <typeInfo handle="=Array/C:\/Program Files\/Java\/jdk-21\/lib\/jrt-fs.jar`java.xml=/module=/true=/&lt;javax.xml.catalog(CatalogFeatures$State.class[State" modifiers="16408" timestamp="1701977569966"/>
+    <typeInfo handle="=Array/C:\/Program Files\/Java\/jdk-21\/lib\/jrt-fs.jar`java.desktop=/module=/true=/&lt;javax.swing.plaf.nimbus(State.class[State" modifiers="1057" timestamp="1701977569966"/>
+    <typeInfo handle="=Array/C:\/Program Files\/Java\/jdk-21\/lib\/jrt-fs.jar`java.smartcardio=/module=/true=/&lt;javax.smartcardio(CardTerminals$State.class[State" modifiers="16409" timestamp="1701977569966"/>
+    <typeInfo handle="=Array/C:\/Program Files\/Java\/jdk-21\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.util(IdentityHashMap.class[IdentityHashMap" modifiers="33" timestamp="1701977569966"/>
+</typeInfoHistroy>

@@ -1,0 +1,22 @@
+package staticthread;
+
+public class ThreadTwo
+{
+
+	Theater theater;
+	int seat;
+
+	public ThreadTwo(Theater theater, int seat) {
+		super();
+		this.theater = theater;
+		this.seat = seat;
+	}
+
+	public void run() {
+		
+		theater.bookSeats(seat);
+		
+	}
+
+
+}

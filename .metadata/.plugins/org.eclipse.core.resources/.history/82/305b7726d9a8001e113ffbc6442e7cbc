@@ -1,0 +1,28 @@
+package arithmatic_logics;
+
+public class Demoo extends Abstract1 implements Interface {
+		
+	private  Demoo()
+	{
+		super();
+		System.out.println("Demo");
+	}
+	public static void main(String[] args) 
+	{
+//		Demoo obj=new Demoo(5) ;
+		Demoo ob=new Demoo() ;
+		Integer o=new Integer(4);
+		o=5;
+		o=44;
+		   // Create an object
+
+
+      System.out.println(o.hashCode()); 
+		
+		Interface.Run();
+				
+	}
+
+
+	
+}

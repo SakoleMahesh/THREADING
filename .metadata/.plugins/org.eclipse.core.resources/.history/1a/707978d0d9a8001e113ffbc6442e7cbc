@@ -1,0 +1,37 @@
+package arithmatic_logics;
+
+public class Demoo extends Abstract1 implements Interface {
+		
+	private  Demoo()
+	{
+		super();
+		System.out.println("Demo");
+	}
+	public static void main(String[] args) 
+	{
+//		Demoo obj=new Demoo(5) ;
+		Demoo ob=new Demoo() ;
+		String o="Hello";
+		String p="Hello";
+		
+		   // Create an object
+		int primitiveInt = 42;
+		int primitiveInt1 = 516662;
+		int hashCode = Integer.hashCode(primitiveInt);
+		int hashCode1 = Integer.hashCode(primitiveInt1);
+
+		System.out.println("Hash Code of Integer: " + hashCode);
+		System.out.println("Hash Code of Integer: " + hashCode1);
+
+
+
+      System.out.println(o.hashCode()); 
+      System.out.println(p.hashCode()); 
+		
+		Interface.Run();
+				
+	}
+
+
+	
+}

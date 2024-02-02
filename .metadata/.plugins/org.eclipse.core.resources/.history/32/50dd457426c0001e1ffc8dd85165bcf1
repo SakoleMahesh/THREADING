@@ -1,0 +1,9 @@
+package practice;
+
+public class FirstThreadUsingRunnable implements Runnable 
+{
+	public void run() {
+		System.out.println("First Thread by Runnable Interface");
+	}
+
+}

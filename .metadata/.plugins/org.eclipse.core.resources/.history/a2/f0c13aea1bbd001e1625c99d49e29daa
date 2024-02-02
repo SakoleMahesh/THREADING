@@ -1,0 +1,14 @@
+package thread;
+
+public class ThreadDemo
+	public void run()
+	{
+		System.out.println("Thread Execute");
+	}
+	public static void main(String[] args)
+	{
+		ThreadDemo D=new ThreadDemo();
+		D.run();
+	}
+
+}

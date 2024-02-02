@@ -1,0 +1,11 @@
+package practice;
+
+
+class Thread extends Thread 
+{
+	
+}
+public class Threads 
+{
+
+}

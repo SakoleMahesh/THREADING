@@ -1,0 +1,13 @@
+package practice;
+
+public class Threadss {
+	public static void main(String[] args) {
+		
+	Threade t1 = new Threade() ;
+	Threade t2 = new Threade() ;
+	Threade t3 = new Threade() ;
+	 t1.start();
+	 t2.start();
+	 t3.start();
+	}
+}

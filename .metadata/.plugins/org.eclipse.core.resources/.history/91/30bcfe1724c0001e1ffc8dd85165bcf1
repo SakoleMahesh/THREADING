@@ -1,0 +1,15 @@
+package practice;
+
+
+class Threade extends Thread 
+{
+	
+		public void run() {
+			
+		}
+	}
+}
+public class Threads 
+{
+
+}

@@ -1,0 +1,28 @@
+package staticthread;
+
+public class BookTicket
+{
+
+	public static void main(String[] args) {
+		
+		Theater theater1 = new Theater();
+		Theater theater2 = new Theater();
+		
+		ThreadOne t1 = new ThreadOne(theater1, 3);
+		ThreadTwo t2 = new ThreadTwo(theater1, 5);
+		t1.setName("Ram");
+		t2.setName("Sham");
+		t1.start();
+		t2.start();
+		
+		MyThreadOne t3 = new MyThreadOne(theater2, 3);
+		MyThreadTwo t4 = new MyThreadTwo(theater2, 5);
+		t3.setName("Abhi");
+		t4.setName("Amit");
+		t3.start();
+		t4.start();
+		
+		
+	}
+
+}
